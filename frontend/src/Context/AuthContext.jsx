@@ -1,7 +1,7 @@
 import React, { createContext, useState } from 'react'
 export const authDataContext = createContext()
 function AuthContext({children}) {
-    const serverUrl = "http://localhost:3000"
+    const serverUrl = "https://full-stack-mern-cozystay.onrender.com"
 
     let [loading,setLoading]=useState(false)
 
